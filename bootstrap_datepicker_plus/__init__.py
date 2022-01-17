@@ -10,3 +10,5 @@ def _make_version(major, minor, micro, releaselevel, serial):
 
 version_info = (3, 0, 5, "final", 0)
 __version__ = _make_version(*version_info)
+
+from .widgets import *
