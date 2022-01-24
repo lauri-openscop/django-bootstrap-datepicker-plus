@@ -1,1 +1,1 @@
-Django
+django>=4.0
