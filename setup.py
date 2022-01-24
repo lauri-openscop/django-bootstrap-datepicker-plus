@@ -1,7 +1,5 @@
 from setuptools import setup
 
-import bootstrap_datepicker_plus
-
 
 def readme():
     with open("README.rst") as f:
@@ -10,7 +8,7 @@ def readme():
 
 setup(
     name="django-bootstrap-datepicker-plus",
-    version=bootstrap_datepicker_plus.__version__,
+    version="4.00",
     description="Bootstrap3/Bootstrap4 DatePickerInput, TimePickerInput, "
     "DateTimePickerInput, MonthPickerInput, YearPickerInput "
     "with date-range-picker functionality for django version 1.11, 1.10 and 1.8",
@@ -22,8 +20,8 @@ setup(
     keywords="django bootstrap date-picker time-picker datetime-picker "
     "date-range-picker",
     packages=["bootstrap_datepicker_plus"],
-    install_requires=["django>=1.8",],
-    python_requires=">=3.6",
+    install_requires=["django>=4.0",],
+    python_requires=">=3.10",
     package_data={
         "bootstrap_datepicker_plus": [
             "templates/*.html",
@@ -41,10 +39,8 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.10",
         "Framework :: Django",
-        "Framework :: Django :: 1.11",
-        "Framework :: Django :: 1.10",
-        "Framework :: Django :: 1.8",
+        "Framework :: Django :: 4.0",
     ],
 )
