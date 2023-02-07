@@ -53,8 +53,10 @@
 }
 
 .glyphicon-remove:before {
-    content: "\e014";
+    color: #28a745;
+    content: "\e084";
 }
+
 
 .bootstrap-datetimepicker-widget .btn {
     display: inline-block;
